@@ -3,8 +3,7 @@
 // 782-> 8
 // 918-> 1
 
-int num = new Random().Next(10,100);
-
-//94
-int num1 = num / 10; // 94 / 10 = 9
-int num2 = num % 10; // 94 % 10 = 4
+Console.WriteLine("Введите трёхзначное число");
+int treeNum = Convert.ToInt32(Console.ReadLine());
+string strNum = Convert.ToString(treeNum);
+Console.WriteLine("вторая цифра этого числа -> "+strNum[1]);
